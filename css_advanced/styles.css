@@ -1,0 +1,249 @@
+html {
+    scroll-behavior: smooth;
+}
+body {
+    margin: 0%;
+    padding: auto;
+}
+span {
+    color: #C271FF;
+    font-weight: bolder;
+}
+header {
+    font-family: 'Source sans pro', monospace;
+    font-weight: 700;
+    font-size: 12px;
+    margin-right: 80px;
+    word-spacing: 50px;
+}
+.links {
+    color: white;
+    text-decoration: none;
+}
+.image-background {
+    background-image: url(images/Background.png);
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 100%;
+    background-color: #071629;
+}
+#head-line {
+    font-weight: 700;
+    font-size: 120px;
+    color: white;
+    word-spacing: -25px;
+}
+#head-line-subtitle {
+    color: white;
+    font-weight: 700;
+    font-size: 16px;
+    word-spacing: 30px;
+    margin-top: -100px;
+    margin-bottom: 50px;
+}
+main {
+    font-family: 'Source sans pro', monospace;
+}
+.pros-section-title {
+    color: white;
+    font-size: 32px;
+    font-weight: lighter;
+    margin-top: 250px;
+}
+.pros-section {
+    margin-top: 150px;
+    margin-bottom: 70px;
+    display: flex;
+    justify-content: space-evenly;
+    color: white;
+}
+.pro-name {
+    text-align: center;
+}
+p {
+    text-align: center;
+    font-weight: lighter;
+}
+.quote {
+    height: 500px;
+    margin-bottom: -30px;
+    background-color: #C271FF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+}
+.quote-avatar {
+    margin-left: 240px;
+}
+.quote-div {
+    display: flex;
+    flex-direction: column;
+}
+.quote-text {
+    margin-left: 50px;
+    margin-right: 240px;
+    font-size: 22px;
+    font-weight: lighter;
+}
+.quote-name {
+    margin-left: 50px;
+    font-size: 22px;
+    font-weight: bolder;
+}
+.quote-subtitle {
+    font-size: 22px;
+    font-weight: lighter;
+    font-style: italic;
+    margin-left: 50px;
+}
+.most-popular-section {
+    background-color: white;
+    height: 700px;
+    padding-top: 50px;
+}
+.most-popular-header {
+    font-size: 32px;
+    font-weight: 300;
+    text-align: center;
+}
+.most-popular-div-1 {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+.most-popular-div-2 {
+    width: 255px;
+    height: 335px;
+}
+.most-popular-div-3 {
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+}
+.most-popular-div-4 {
+    display: flex;
+
+}
+.most-popular-title {
+    font-size: 16px;
+}
+.most-popular-subtext {
+    font-size: 14px;
+    color: #07162980;
+}
+.most-popular-avatar {
+    width: 30px;
+    height: 30px;
+}
+.most-popular-author {
+    margin-left: 15px;
+    font-size: 14px;
+    color: #C271FF;
+}
+.runtime {
+    margin-left: 100px;
+    font-size: 14px;
+    color: #C271FF;
+}
+.membership {
+    height: 502px;
+    color: white;
+    background-color: #071629;
+    text-align: center;
+}
+.membership-div-1 {
+    display: flex;
+    justify-content: space-evenly;
+    margin-bottom: 100px;
+}
+.membership-div-2 {
+    width: 257px;
+    height: 153px;
+}
+.membership-heading {
+    margin-top: 70px;
+    margin-bottom: 100px;
+    font-size: 32px;
+    font-weight: 700;
+}
+.membership-title {
+    font-size: 18px;
+    font-weight: 600;
+}
+.membership-text {
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 26px;
+}
+.faq-section {
+    padding-top: 50px;
+    background-color: white;
+}
+#faq{
+    font-size: 50px;
+    font-weight: lighter;
+    text-align: center;
+}
+.faq-div {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+.faq-subdiv {
+    width: 600px;
+    height: 300px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 30px;
+}
+.faq-subsubdiv {
+    width: 350px;
+}
+.faq-answer {
+    width: 350px;
+    height: 192px;
+    color: gray;
+    font-size: 14px;
+    font-weight: 400;
+    word-wrap: break-word;
+}
+footer {
+    background-color: #071629;
+    color: white;
+    font-family: 'Source sans pro', monospace;
+    height: 250px;
+}
+.logo-and-links-header {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 30px;
+}
+.logo-and-links-footer {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 90px;
+}
+.copyright {
+    margin-top: 30px;
+    font-size: 12px;
+    font-weight: 400;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+button {
+    background-color:#C271FF;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    padding: 20px;
+}
+.register-button {
+
+}
